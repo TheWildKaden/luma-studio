@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><EnableWindowsTargeting>true</EnableWindowsTargeting><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>Yakuza0MovesetCreator</AssemblyName></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../YakuzaMovesetCore/YakuzaMovesetCore.csproj" /><None Include="../../blender/automation.py" Link="blender/automation.py" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+</Project>
